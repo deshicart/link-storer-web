@@ -9,10 +9,10 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Link Storer — Save, organize, and find links" />
   <meta property="og:description" content="The fastest way to save, organize, and find links. Offline-first and private — your data stays on your device." />
-  <meta property="og:image" content="logo.png" />
+  <meta property="og:image" content="/logo.png" />
   <meta name="theme-color" content="#DC2626" />
 
-  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="icon" type="image/png" href="/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -524,15 +524,17 @@
       * { transition: none !important; }
     }
   </style>
-</head>
+  <link rel="canonical" href="https://linkstorer.dev/home" />
+  <meta property="og:url" content="https://linkstorer.dev/home" />
+  </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
-        <a class="brand" href="index.html">
-          <img src="logo.png" alt="Link Storer logo" width="32" height="32" />
+        <a class="brand" href="/home">
+          <img src="/logo.png" alt="Link Storer logo" width="32" height="32" />
           Link Storer
         </a>
         <ul class="nav-links">
@@ -553,8 +555,8 @@
         <a href="#how">How it works</a>
         <a href="#privacy">Privacy</a>
         <a href="#developer">Developer</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-and-conditions">Terms &amp; Conditions</a>
         <a class="btn btn-primary" href="#get" style="margin-top:8px">Get Link Storer</a>
       </div>
     </div>
@@ -579,7 +581,7 @@
             </p>
           </div>
           <div class="hero-visual">
-            <img src="home.png" alt="Screenshot of the Link Storer home screen showing the links dashboard" />
+            <img src="/home-page.png" alt="Screenshot of the Link Storer home screen showing the links dashboard" />
           </div>
         </div>
       </div>
@@ -708,22 +710,22 @@
           <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="App screenshots">
             <div class="carousel-track">
               <div class="carousel-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 6" data-caption="The Link Storer home screen.">
-                <img src="home-page.png" alt="Link Storer home screen showing links, categories, and favorites statistics" />
+                <img src="/home-page.png" alt="Link Storer home screen showing links, categories, and favorites statistics" />
               </div>
               <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 6" data-caption="Add a link with an automatically fetched title.">
-                <img src="add-link-page.png" alt="Link Storer add link screen with fields for URL, title, and description" />
+                <img src="/add-link-page.png" alt="Link Storer add link screen with fields for URL, title, and description" />
               </div>
               <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 6" data-caption="Organize links into categories.">
-                <img src="categories-page.png" alt="Link Storer categories screen showing a grid of categories" />
+                <img src="/categories-page.png" alt="Link Storer categories screen showing a grid of categories" />
               </div>
               <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 of 6" data-caption="Find anything with instant search.">
-                <img src="search-page.png" alt="Link Storer search screen with a search field and results" />
+                <img src="/search-page.png" alt="Link Storer search screen with a search field and results" />
               </div>
               <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="5 of 6" data-caption="View link details and open, copy, or edit.">
-                <img src="link-details.png" alt="Link Storer link details screen showing actions and metadata" />
+                <img src="/link-details.png" alt="Link Storer link details screen showing actions and metadata" />
               </div>
               <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="6 of 6" data-caption="Manage backups and settings.">
-                <img src="settings-page.png" alt="Link Storer settings screen with data and Google Drive backup options" />
+                <img src="/settings-page.png" alt="Link Storer settings screen with data and Google Drive backup options" />
               </div>
             </div>
 
@@ -750,7 +752,7 @@
             <h2 class="section-title">Your links stay yours</h2>
             <p>Link Storer is designed to be private by default. There is no account for the core app, no tracking, and none of your links are shared with us.</p>
             <p>Your links and categories are stored in a local database on your device. The internet is only used for fetching link metadata, checking link health, and sharing exports.</p>
-            <p>If you choose Google Drive backup, your links go to a private app folder in your own account. Read the full details in our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+            <p>If you choose Google Drive backup, your links go to a private app folder in your own account. Read the full details in our <a href="/privacy-policy">Privacy Policy</a>.</p>
           </div>
           <ul class="data-list">
             <li>
@@ -816,8 +818,8 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
-          <a class="brand" href="index.html">
-            <img src="logo.png" alt="Link Storer logo" width="32" height="32" />
+          <a class="brand" href="/home">
+            <img src="/logo.png" alt="Link Storer logo" width="32" height="32" />
             Link Storer
           </a>
           <p>The fastest way to save, organize, and find links. Offline-first and private.</p>
@@ -834,8 +836,8 @@
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
           </ul>
         </div>
       </div>
